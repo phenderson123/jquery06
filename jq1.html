@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>My Example</title>
+
+<style>
+  p {
+    background: green;
+    padding: 20px;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "#toggleContent" ).click(function() {
+  
+    
+    $( "p" ).fadeToggle( "fast" );
+    
+  });
+
+});
+</script>
+<button id="toggleContent">Amazing!</button>
+<p>See this friend!</p>
